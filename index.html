@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-">
+
+    <!-- Header Section -->
+    <header class="bg-white/50 rounded-lg mt-5 z-20 shadow-md py-4 fixed w-11/12 mx-5 ">
+        <div class="container mx-auto flex justify-between items-center ">
+            <!-- Logo -->
+            <h1 class="text-2xl font-bold text-gray-800 mr-10"> لولي للصابونية</h1>
+            
+            <!-- Hamburger Menu for Mobile -->
+            <button id="menu-toggle" class="block md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav id="menu" class="hidden md:flex space-x-4">
+                <ul class="flex flex-col md:flex-row space-y-2 mr-20 gap-x-10 md:space-y-0 md:space-x-4">
+                    <li><a href="#hero-text" class="text-gray-600 hover:text-gray-900">الصفحة الرئيسية</a></li>
+                    <li class="relative group">
+                        <!-- Dropdown Menu -->
+                        <a href="#feature" class="text-gray-600 hover:text-gray-900">المنتجات</a>
+                      
+                    </li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-900">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg">
+            <ul class="space-y-2 py-4 px-6">
+                <li><a href="#hero-text" class="text-gray-600 hover:text-gray-900 block">الصفحة الرئيسية</a></li>
+                <li class="relative">
+                    <!-- Dropdown for Mobile -->
+                    <a href="#feature" class="text-gray-600 hover:text-gray-900 block">المنتجات</a>
+                    
+                </li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-900 block">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="h-screen bg-cover bg-center" style="background-image: url('../img/201207051651987~shutterstock-727606315.jpg');">
+        <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center">
+            <h1 class="text-white text-4xl font-bold mb-4">صابونية التفتيح والتقشير</h1>
+            <p class="text-white text-lg mb-6">احصلي على بشرة ناعمة ومشرقة مع أفضل منتج للعناية بالبشرة.</p>
+            <a href="https://wa.me/+249110124310" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-xl">
+                اطلب الآن
+            </a>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-200/50 py-20 hero  ">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <!-- Content with Scroll Animation -->
+            <div class="text-center mr-20 mt-32 md:text-left md:w-1/2 space-y-6 ml-20 animate__animated" id="hero-text">
+                <h2 class="text-4xl font-bold text-gray-800"> صابونية الجسم للتفتيح والتقشير</h2>
+                <p class="text-gray-600 ">
+                    هل تبحثين عن الحل الأمثل لجعل بشرتك أكثر نعومة وإشراقًا؟ هل ترغبين في التخلص من آثار الشمس المزعجة والخلايا الميتة التي تجعل بشرتك تبدو باهتة؟ نقدم لك صابونية التفتيح والتقشير الفريدة التي تجمع بين فوائد العناية بالبشرة وتقشيرها بطريقة آمنة وسهلة الاستخدام.
+                </p>
+            
+            </div>
+
+            <!-- 3D Image with Animated Shadow -->
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <img src="/img/adacde77-0d46-4f4c-99a8-f064dbcf1bc4.jpeg" alt="3D Product Image" class="mx-auto mt-10 shadow-animated shadow-black rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-white py-16" id="feature">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12"> سر جمال بشرتك يبدأ هنا</h3>
+            <p class="text-2xl font-semibold text-center text-gray-800 mb-12"> هل ترغبين في بشرة ناعمة، مشرقة، وخالية من التصبغات؟ الآن يمكنك الحصول على النتيجة التي تحلمين بها مع صابونية التفتيح والتقشير!</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+                <!-- Feature 1 with Animation -->
+                <div class="bg-gray-100 p-6 rounded-lg text-center animate__animated shadow-md shadow-blue-400 mx-5 md:mx-0 lg:mx-0" id="feature-1">
+                    <img src="/img/تنزيل (1).jpeg" alt="Feature 3D Image" class="mx-auto mb-4">
+                    <h4 class="text-xl font-semibold text-gray-800">  تقشير  للجسم</h4>
+                    <p class="text-gray-600">
+                        تقوم بتقشير الجسم بطريقة آمنة تماماً.
+                    </p>
+                </div>
+
+                <!-- Feature 2 with Animation -->
+                <div class="bg-gray-100 p-6 rounded-lg text-center animate__animated shadow-md shadow-blue-400  mx-5 md:mx-0 lg:mx-0" id="feature-2">
+                    <img src="/img/تنزيل.jpeg" alt="Feature 3D Image" class="mx-auto mb-4">
+                    <h4 class="text-xl font-semibold text-gray-800"> ضربات الشمس</h4>
+                    <p class="text-gray-600">
+                        تزيل آثار ضربات الشمس وتخلصك من قشور الجلد المتراكمة.
+                    </p>
+                </div>
+
+                <!-- Feature 3 with Animation -->
+                <div class="bg-gray-100 p-6 rounded-lg text-center animate__animated shadow-md shadow-blue-400  mx-5 md:mx-0 lg:mx-0" id="feature-3">
+                    <img src="/img/إزالة_قشور_الوجه.jpg" alt="Feature 3D Image" class="mx-auto mb-4">
+                    <h4 class="text-xl font-semibold text-gray-800"> إزالة قشور الكريمات</h4>
+                    <p class="text-gray-600">
+                        تساعد في إزالة قشور الكريمات بشكل فعال، مما يجعل البشرة تبدو أكثر إشراقاً.                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Features section -->
+     <section class="bg-gray-200 py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">فوائد إضافية  </h2>
+                <p class="text-gray-600 mb-12">
+                    صابونية الجسم تقدم مجموعة رائعة من الفوائد للبشرة، مما يجعلها الخيار المثالي للعناية ببشرتك وتحقيق الإشراقة التي تبحثين عنها
+                </p>
+            </div>
+            <div class="flex flex-wrap -mx-4 mt-12">
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="rounded-md bg-white shadow-md p-8">
+                        <div class="text-4xl font-bold text-purple-600 mb-4">01</div>
+                        <h3 class="text-2xl font-bold mb-4">                             تزيل آثار ضربة الشمس
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            تعمل الصابونية بفعالية على تخفيف آثار ضربات الشمس، وذلك من خلال مكوناتها التي تساهم في تهدئة وترطيب البشرة المتضررة، مما يعيد لها رونقها الطبيعي ويخفف من البقع الداكنة.                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="rounded-md bg-white shadow-md p-8">
+                        <div class="text-4xl font-bold text-purple-600 mb-4">02</div>
+                        <h3 class="text-2xl font-bold mb-4">توحد لون البشرة. </h3>
+                        <p class="text-gray-600 mb-4">
+                            بفضل خصائصها المغذية، تساعد الصابونية على توحيد لون البشرة عن طريق تقليل التصبغات والبقع الناتجة عن التعرض المستمر للشمس والعوامل البيئية. مع الاستخدام المنتظم، تصبح بشرتك أكثر تناسقًا ونقاءً.
+                            .</p>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="rounded-md bg-white shadow-md p-8">
+                        <div class="text-4xl font-bold text-purple-600 mb-4">03</div>
+                        <h3 class="text-2xl font-bold mb-4">تزيل الخلايا الميتة من الجلد.</h3>
+                        <p class="text-gray-600 mb-4">
+                            تقشر الصابونية الطبقات السطحية من البشرة وتزيل الخلايا الميتة التي تتراكم مع مرور الوقت. هذا التقشير يفتح المسام ويجدد خلايا البشرة، مما يجعل الجلد أكثر نعومة وحيوية.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Features section -->
+     <section class="bg-gray-200 py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">طريقة الاستخدام </h2>
+                <p class="text-gray-600 mb-12">
+                    باتباع هذه الطريقة، ستتمتعين ببشرة ناعمة ومشرقة مع كل استخدام.
+                </p>
+            </div>
+            <div class="flex flex-wrap -mx-4 mt-12">
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="rounded-md bg-white shadow-md p-8">
+                        <div class="text-4xl font-bold text-purple-600 mb-4">01</div>
+                        <p class="text-2xl font-semibold mb-4">قومي بفرك الصابونية على جسمك.</p>
+                       
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="rounded-md bg-white shadow-md p-8">
+                        <div class="text-4xl font-bold text-purple-600 mb-4">02</div>
+                        <p class="text-2xl font-semibold mb-4">ارتدي أكياسًا واتركيها على جسمك لمدة ساعتين.</p>
+                       
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="rounded-md bg-white shadow-md p-8">
+                        <div class="text-4xl font-bold text-purple-600 mb-4">03</div>
+                        <p class="text-2xl font-semibold mb-4">بعد ذلك، اشطفي جسمك جيدًا باستخدام الماء الدافئ</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto py-10">
+        <h2 class="text-4xl font-bold text-center mb-6">صابونية الجسم للتفتيح والتقشير</h2>
+
+        <div class="relative w-full h-64 mx-auto overflow-hidden rounded-lg shadow-lg">
+            <!-- الصور المتحركة -->
+            <div class="carousel-item absolute w-full h-full active">
+                <img src="/img/adacde77-0d46-4f4c-99a8-f064dbcf1bc4.jpeg" alt="صابونية التفتيح" class="w-full h-full object-cover">
+            </div>
+            <div class="carousel-item absolute w-full h-full">
+                <img src="/img/عرض1.jpeg" alt="نتائج رائعة" class="w-full h-full object-cover">
+            </div>
+            <div class="carousel-item absolute w-full h-full">
+                <img src="/img/tropical-body-scrub.jpg" alt="تقشير آمن" class="w-full h-full object-cover">
+            </div>
+
+            <!-- أزرار التنقل -->
+            <button class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-4 py-2" onclick="prevSlide()">‹</button>
+            <button class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-4 py-2" onclick="nextSlide()">›</button>
+        </div>
+
+        <!-- CTA طلب الصابونية -->
+        <div class="text-center mt-8">
+            <a href="https://wa.me/+249110124310" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-xl">
+                اطلبي الصابونية الآن
+            </a>
+        </div>
+    </section>
+
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.carousel-item');
+        
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        // عرض الشرائح التلقائي كل 3 ثوانٍ
+        setInterval(nextSlide, 3000);
+    </script>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Function to handle scrolling animations for texts
+        function handleScrollAnimation() {
+            const heroText = document.getElementById('hero-text');
+            const feature1 = document.getElementById('feature-1');
+            const feature2 = document.getElementById('feature-2');
+            const feature3 = document.getElementById('feature-3');
+
+            const elements = [heroText, feature1, feature2, feature3];
+            const windowHeight = window.innerHeight;
+
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('animate__fadeInUp');
+                }
+            });
+        }
+
+        // Listen for scroll events
+        window.addEventListener('scroll', handleScrollAnimation);
+    </script>
+
+</body>
+</html>

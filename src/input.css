@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes pulse-shadow {
+    0% {
+        box-shadow: 0 0 20px rgba(0, 1, 3, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(2, 6, 12, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(2, 7, 15, 0.6);
+    }
+}
+.shadow-animated {
+    animation: pulse-shadow 2s infinite;
+}
+
+.carousel-item {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.carousel-item.active {
+    opacity: 1;
+}
+
+/* .hero{
+    background-image: url(../img/201207051651987~shutterstock-727606315.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+} */
+
